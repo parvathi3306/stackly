@@ -10,7 +10,7 @@
   background: #fff;
 }
 [data-theme="dark"] .about-section {
-  background-color: #121212;
+  background-color: #111111;
 }
 
 .about-content {
@@ -23,9 +23,9 @@
   animation: fadeInLeft 2s ease forwards;
 }
 [data-theme="dark"] .about-content {
-  background-color: #1e1e1e;
+  background-color: #1f1f1f;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
-  color: #e0e0e0;
+  color: #dcdcdc;
 }
 
 .about-content h2 {
@@ -35,7 +35,7 @@
   color: #1e0b3c; /* dark purple */
 }
 [data-theme="dark"] .about-content h2 {
-  color: #fdfdfd;
+  color: #fafafa;
 }
 
 .about-content p {
@@ -113,11 +113,11 @@
 /* Mission & Vision Section */
 .mv-section {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+  background-color: #f5f6f7;
 }
 [data-theme="dark"] .mv-section {
   padding: 60px 20px;
-  background-color: #121212; /* dark background */
+  background-color: #111111; /* dark background */
 }
 
 .mv-container,
@@ -286,7 +286,7 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 [data-theme="dark"] .expert-team-section {
-  background-color: #1e1e1e;
+  background-color: #1f1f1f;
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
 }
 
@@ -296,7 +296,7 @@
   margin-bottom: 10px;
 }
 [data-theme="dark"] .expert-team-title {
-  color: #e0e0e0;
+  color: #dcdcdc;
 }
 
 .expert-team-subtitle {
@@ -305,7 +305,7 @@
   margin-bottom: 40px;
 }
 [data-theme="dark"] .expert-team-subtitle {
-  color: #e0e0e0;
+  color: #dcdcdc;
 }
 
 .expert-testimonials {
@@ -326,7 +326,7 @@
   text-align: left;
 }
 [data-theme="dark"] .expert-card {
-  background: #2a2a2a;
+  background: #2c2c2c;
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
   color: #ccc;
 }
@@ -418,7 +418,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 [data-theme="dark"] .testimonial-section {
-  background-color: #1e1e1e;
+  background-color: #1f1f1f;
   box-shadow: 0 0 18px rgba(255, 255, 255, 0.1);
 }
 
@@ -430,7 +430,7 @@
   color: #222;
 }
 [data-theme="dark"] .testimonial-title {
-  color: #e0e0e0;
+  color: #dcdcdc;
 }
 
 .testimonial-box-container {
@@ -452,7 +452,7 @@
   min-width: 300px;
 }
 [data-theme="dark"] .testimonial-wrapper {
-  background-color: #2a2a2a;
+  background-color: #2c2c2c;
   box-shadow: 0 6px 12px rgba(255, 255, 255, 0.05);
 }
 

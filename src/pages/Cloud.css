@@ -118,7 +118,7 @@
 /*section 2 cloud*/
 .cloud-section {
   padding: 80px 10%;
-  background: linear-gradient(to right, #f9fbff, #eef3ff);
+  background: linear-gradient(to right, #f9fafc, #eef3ff);
 }
 
 .cloud-container {
@@ -177,7 +177,7 @@
 }
 
 .cloud-btn:hover {
-  background: #fdfdfd;
+  background: #fafafa;
   color:#0056ff;
   transform: translateY(-2px);
 }
@@ -211,7 +211,7 @@
 }
 /* 🌙 Dark Theme for .cloud-section */
 [data-theme="dark"] .cloud-section {
-  background: linear-gradient(to right, #121212, #1e1e1e);
+  background: linear-gradient(to right, #111111, #1f1f1f);
 }
 
 [data-theme="dark"] .cloud-content h2 {
@@ -223,16 +223,16 @@
 }
 
 [data-theme="dark"] .cloud-features li {
-  color: #bdbdbd;
+  color: #bfbfbf;
 }
 
 [data-theme="dark"] .cloud-btn {
   background: #64b5f6;
-  color: #121212;
+  color: #111111;
 }
 
 [data-theme="dark"] .cloud-btn:hover {
-  background: #fdfdfd;
+  background: #fafafa;
   color: #0056ff;
 }
 
@@ -253,7 +253,7 @@
 /*Section 3 cloud*/
 .cloud-services-timeline {
   padding: 5px 10%;
-  background: #f9fbff;
+  background: #f9fafc;
 }
 
 .cloud-timeline-container {
@@ -391,7 +391,7 @@ h2,
 }
 /* 🌙 Dark Theme: Cloud Services Timeline */
 [data-theme="dark"] .cloud-services-timeline {
-  background: #121212;
+  background: #111111;
 }
 
 [data-theme="dark"] .timeline h2 {
@@ -408,7 +408,7 @@ h2,
 
 [data-theme="dark"] .timeline-icon {
   background: #64b5f6;
-  color: #121212;
+  color: #111111;
   box-shadow: none;
 }
 
@@ -417,11 +417,11 @@ h2,
 }
 
 [data-theme="dark"] .timeline-content h3 {
-  color: #e0e0e0;
+  color: #dcdcdc;
 }
 
 [data-theme="dark"] .timeline-content p {
-  color: #bdbdbd;
+  color: #bfbfbf;
 }
 
 [data-theme="dark"] .timeline-image img {
@@ -437,7 +437,7 @@ h2,
 /*section 4 cloud benefis*/
 .cloud-benefits {
   padding: 5px 10%;
-  background: #fdfdfd;
+  background: #fafafa;
   text-align: center;
 }
 
@@ -505,8 +505,8 @@ h2,
 }
 /* 🌙 Dark Theme: Cloud Benefits */
 [data-theme="dark"] .cloud-benefits {
-  background: #121212;
-  color: #e0e0e0;
+  background: #111111;
+  color: #dcdcdc;
 }
 
 [data-theme="dark"] .cloud-benefits-container h2 {
@@ -518,7 +518,7 @@ h2,
 }
 
 [data-theme="dark"] .benefit-card {
-  background: #1e1e1e;
+  background: #1f1f1f;
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
 }
 
@@ -527,11 +527,11 @@ h2,
 }
 
 [data-theme="dark"] .benefit-card h3 {
-  color: #e0e0e0;
+  color: #dcdcdc;
 }
 
 [data-theme="dark"] .benefit-card p {
-  color: #bdbdbd;
+  color: #bfbfbf;
 }
 
 
@@ -548,7 +548,7 @@ h2,
 
 #cloud-services {
   padding: 5px 20px;
-  background: #f9f9f9;
+  background: #f5f6f7;
   font-family: Arial, sans-serif;
 }
 
@@ -617,16 +617,16 @@ h2,
 }
 /* 🌙 Dark Theme for Cloud Services */
 [data-theme="dark"] #cloud-services {
-  background: #121212;
-  color: #e0e0e0;
+  background: #111111;
+  color: #dcdcdc;
 }
 
 [data-theme="dark"] #cloud-services h1 {
-  color: #e0e0e0;
+  color: #dcdcdc;
 }
 
 [data-theme="dark"] .card {
-  background: #1e1e1e;
+  background: #1f1f1f;
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
 }
 
@@ -686,7 +686,7 @@ h2,
 .contact-content h2 {
   font-size: 26px;
   margin-bottom: 15px;
-  color: #1e1e1e;
+  color: #1f1f1f;
 }
 
 .contact-content p {
@@ -713,8 +713,8 @@ h2,
 }
 /* 🌙 Dark Theme Overrides */
 [data-theme="dark"] .contact-section {
-  background-color: #121212;
-  color: #e0e0e0;
+  background-color: #111111;
+  color: #dcdcdc;
 }
 
 [data-theme="dark"] .background-img {
@@ -722,7 +722,7 @@ h2,
 }
 
 [data-theme="dark"] .contact-content {
-  background: #1e1e1e;
+  background: #1f1f1f;
   box-shadow: 0 8px 24px rgba(255, 255, 255, 0.05);
 }
 
@@ -736,11 +736,11 @@ h2,
 
 [data-theme="dark"] .cta-button {
   background-color: #64b5f6;
-  color: #121212;
+  color: #111111;
 }
 
 [data-theme="dark"] .cta-button:hover {
-  background: #fdfdfd;
+  background: #fafafa;
   color: #0056ff;
 }
 

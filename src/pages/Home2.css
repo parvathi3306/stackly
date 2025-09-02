@@ -118,7 +118,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 50px 60px;
-    background-color: #ffffff;
+    background-color: #fafafa;
 }
 
 .trusted-text {
@@ -175,11 +175,11 @@
   }
 }
 [data-theme="dark"] .trusted-section {
-  background-color: #121212; /* dark background */
+  background-color: #111111; /* dark background */
 }
 
 [data-theme="dark"] .trusted-section .trusted-text {
-  color: #e0e0e0; /* light text */
+  color: #dcdcdc; /* light text */
 }
 
 [data-theme="dark"] .trusted-section .trusted-logos-scroll img {
@@ -276,12 +276,12 @@
   }
 }
 [data-theme="dark"] .explore-section {
-  background-color: #121212;
+  background-color: #111111;
   text-align: center;
 }
 
 [data-theme="dark"] .explore-title {
-  color: #e0e0e0;
+  color: #dcdcdc;
 }
 
 [data-theme="dark"] .explore-grid {
@@ -291,7 +291,7 @@
 }
 
 [data-theme="dark"] .explore-card {
-  color: #e0e0e0;
+  color: #dcdcdc;
 }
 
 [data-theme="dark"] .image-container {
@@ -312,7 +312,7 @@
 }
 
 [data-theme="dark"] .explore-link {
-  color: #bbbbbb;
+  color: #bfbfbf;
   transition: color 0.3s ease;
 }
 
@@ -328,7 +328,7 @@
 /*section4 IT Industries*/
 .insights-section {
   padding: 10px 20px;
-  background-color: #f7f9fc;
+  background-color: #f9fafc;
   color: #000;
   text-align: center;
 }
@@ -409,7 +409,7 @@
 }
 
 .insights-cta-button:hover {
-  background: #ffffff;
+  background: #fafafa;
   color: #007bff;
 }
 
@@ -456,13 +456,13 @@
   }
 }
 [data-theme="dark"] .insights-section {
-  background-color: #121212;
-  color: #e0e0e0;
+  background-color: #111111;
+  color: #dcdcdc;
   text-align: center;
 }
 
 [data-theme="dark"] .insights-title {
-  color: #f0f0f0;
+  color: #f1f1f1;
 }
 
 [data-theme="dark"] .insights-subtitle {
@@ -475,7 +475,7 @@
 }
 
 [data-theme="dark"] .insights-card {
-  background: #1e1e1e;
+  background: #1f1f1f;
   border-radius: 12px;
   padding: 30px 25px;
   box-shadow: 0 4px 12px rgba(255 255 255 / 0.05);
@@ -497,7 +497,7 @@
   font-size: 2.5rem;
   margin-bottom: 15px;
   transition: transform 0.3s ease;
-  color: #bbbbbb;
+  color: #bfbfbf;
 }
 
 [data-theme="dark"] .insights-card-title {
@@ -525,7 +525,7 @@
 }
 
 [data-theme="dark"] .insights-cta-button:hover {
-  background: #ffffff;
+  background: #fafafa;
   color: #0056ff;
 }
 
@@ -701,31 +701,31 @@
   }
 }
 [data-theme="dark"] .info-section {
-  background-color: #121212;
-  color: #e0e0e0;
+  background-color: #111111;
+  color: #dcdcdc;
 }
 
 [data-theme="dark"] .info-box {
   box-shadow: 0 4px 12px rgba(255 255 255 / 0.1);
   color: #ddd;
-  background-color: #1e1e1e; /* default dark bg fallback */
+  background-color: #1f1f1f; /* default dark bg fallback */
   text-align: justify;
 }
 
 [data-theme="dark"] .info-box.left {
   background-color: #0056b3; /* darker blue */
-  color: #e0e0e0;
+  color: #dcdcdc;
 }
 
 [data-theme="dark"] .info-box.center {
-  background-color: #2a2a2a; /* dark grey for center */
+  background-color: #2c2c2c; /* dark grey for center */
   color: #ccc;
   text-align: center;
 }
 
 [data-theme="dark"] .info-box.right {
   background-color: #007b8a; /* darker teal-blue */
-  color: #e0e0e0;
+  color: #dcdcdc;
 }
 
 [data-theme="dark"] .center .logo {
@@ -1089,7 +1089,7 @@ mission-section {
 }
 
 .cta-btn:hover {
-  background: #ffffff;
+  background: #fafafa;
   color: #0056ff;
 }
 
@@ -1101,7 +1101,7 @@ mission-section {
   }
 }
 [data-theme="dark"] .contact-cta {
-  background: #121212;
+  background: #111111;
   color: #eee;
 }
 

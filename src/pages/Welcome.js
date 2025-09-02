@@ -153,7 +153,7 @@ const Welcome = () => {
         .shape3 {
           width: 200px;
           height: 200px;
-          background: #ffffffcc;
+          background: #fdfdfdcc;
           top: 65%;
           left: 70%;
           animation-delay: 6s;

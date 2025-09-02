@@ -1,13 +1,13 @@
 :root {
-  --background-color: #fdfdfd;
+  --background-color: #fafafa;
   --text-color: #000000;
   --accent-color: #007bff;
-  --card-bg: #f5f7fa;
+  --card-bg: #f9fafc;
 }
 
 html[data-theme="dark"] {
-  --background-color: #121212;
-  --text-color: #fdfdfd;
+  --background-color: #111111;
+  --text-color: #fafafa;
   --accent-color: #1e90ff;
   --card-bg: #1f1f1f;
 }
@@ -99,14 +99,14 @@ html[data-theme="dark"] {
 
 /* Dark theme overrides using body.dark-theme */
 body.dark-theme .ai-data-section {
-  background-color: #121212;
-  color: #fdfdfd;
+  background-color: #111111;
+  color: #fafafa;
 }
 
 body.dark-theme .ai-data-card {
   background-color: #1f1f1f;
   box-shadow: 0 8px 24px rgba(255, 255, 255, 0.12);
-  color: #fdfdfd;
+  color: #fafafa;
 }
 
 body.dark-theme .ai-data-card:hover {
@@ -120,7 +120,7 @@ body.dark-theme .ai-data-title {
 body.dark-theme .ai-point {
   background-color: rgba(30, 144, 255, 0.05);
   border-left-color: #1e90ff;
-  color: #e0e0e0;
+  color: #dcdcdc;
 }
 
 body.dark-theme .ai-point:hover {

@@ -179,7 +179,7 @@
 }
 
 .read-more-btn:hover {
-  background-color: #ffffff;
+  background-color: #fafafa;
   color: #0056ff;
 }
 
@@ -196,11 +196,11 @@
 
 /* 🌑 Dark Theme */
 [data-theme="dark"] .about-section {
-  background: #121212;
+  background: #111111;
 }
 
 [data-theme="dark"] .about-title {
-  color: #ffffff;
+  color: #fafafa;
 }
 
 [data-theme="dark"] .about-text {
@@ -338,7 +338,7 @@
 
 /* ✅ Dark Theme Support */
 [data-theme="dark"] .dashboard-stats {
-  background-color: #121212;
+  background-color: #111111;
 }
 
 [data-theme="dark"] .dashboard-stat-card {
@@ -444,7 +444,7 @@
 }
 
 .service-btn:hover {
-    background: #ffffff;
+    background: #fafafa;
     color:#0056ff
 }
 @media (max-width: 768px) {
@@ -491,7 +491,7 @@
 /*section5 IT Industries*/
 .industries-section {
   padding: 5px 10%;
-  background-color: #f9f9f9;
+  background-color: #f5f6f7;
 }
 
 .industries-container {
@@ -540,7 +540,7 @@
 }
 
 .flat-btn:hover {
-  background: #ffffff;
+  background: #fafafa;
   color:#0056ff
 }
 
@@ -617,7 +617,7 @@
 
 /* Dark theme overrides */
 [data-theme="dark"] .industries-section {
-  background-color: #121212;
+  background-color: #111111;
 }
 
 [data-theme="dark"] .industries-text p,
@@ -631,11 +631,11 @@
 
 [data-theme="dark"] .flat-btn {
   background: #4ea8ff;
-  color: #121212;
+  color: #111111;
 }
 
 [data-theme="dark"] .flat-btn:hover {
-  background: #121212;
+  background: #111111;
   color: #4ea8ff;
   border: 1px solid #4ea8ff;
 }
@@ -661,7 +661,7 @@
 }
 
 [data-theme="dark"] .bar-white {
-  background: #121212;
+  background: #111111;
   border: 1px solid #ddd;
 }
 
@@ -673,7 +673,7 @@
 /* Testimonials Section */
 .testimonials-section {
   padding: 20px 0;
-  background-color: #f9f9f9;
+  background-color: #f5f6f7;
   text-align: center;
 }
 
@@ -713,14 +713,14 @@
 
 /* Testimonial Card */
 .testimonial-card {
-  background-color: #ffffff;
+  background-color: #fafafa;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   padding: 40px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 [data-theme="dark"] .testimonial-card {
-  background-color: #1e1e1e;
+  background-color: #1f1f1f;
   box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
   color: #ccc;
 }
@@ -852,7 +852,7 @@
 }
 /* Dark Theme Overrides */
 [data-theme="dark"] .testimonials-section {
-  background-color: #121212;
+  background-color: #111111;
   color: #eee;
 }
 
@@ -865,7 +865,7 @@
 }
 
 [data-theme="dark"] .testimonial-card {
-  background-color: #1e1e1e;
+  background-color: #1f1f1f;
   box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
   color: #ccc;
 }
@@ -964,16 +964,16 @@
 }
 
 .cta-btn:hover {
-  background: #ffffff;
+  background: #fafafa;
   color: #0056ff;
 }
 [data-theme="dark"] .cta-btn:hover {
-  background: #ffffff;
+  background: #fafafa;
   color: #0056ff;
 }
 
 [data-theme="dark"] .contact-cta {
-  background: #121212;
+  background: #111111;
   color: #eee;
 }
 

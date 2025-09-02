@@ -177,7 +177,7 @@
   display: block;
   padding: 1rem;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #f5f6f7;
   font-weight: 600;
   color: #333;
   text-decoration: none;
@@ -231,15 +231,15 @@
   }
 }
 [data-theme="dark"] .explore-services-section {
-  background-color: #121212;
+  background-color: #111111;
 }
 
 [data-theme="dark"] .explore-services-title {
-  color: #ffffff;
+  color: #fafafa;
 }
 
 [data-theme="dark"] .explore-service-card {
-  background-color: #1e1e1e;
+  background-color: #1f1f1f;
   box-shadow: 0 2px 12px rgba(255, 255, 255, 0.05);
 }
 
@@ -248,7 +248,7 @@
 }
 
 [data-theme="dark"] .explore-service-label {
-  background-color: #1a1a1a;
+  background-color: #181818;
   color: #cccccc;
   border-top: 1px solid #333;
 }
@@ -331,7 +331,7 @@
   align-items: center;
   gap: 60px;
   padding: 60px 40px;
-  background-color: #f9f9f9;
+  background-color: #f5f6f7;
   flex-wrap: nowrap;
 }
 
@@ -457,7 +457,7 @@
 
 }
 [data-theme="dark"] .process-section {
-  background-color: #121212;
+  background-color: #111111;
 }
 
 [data-theme="dark"] .rotating-circle {
@@ -465,11 +465,11 @@
 }
 
 [data-theme="dark"] .center-text {
-  color: #e0e0e0; /* light text */
+  color: #dcdcdc; /* light text */
 }
 
 [data-theme="dark"] .step {
-  background-color: #1e1e1e;
+  background-color: #1f1f1f;
   color: #ccc;
   box-shadow: 0 6px 20px rgba(255, 255, 255, 0.05);
 }
@@ -514,7 +514,7 @@
 
 /* Card Styling */
 .offering-item {
-  background: #ffffff;
+  background: #fafafa;
   border-radius: 12px;
   padding: 30px 20px;
   text-align: center;
@@ -565,15 +565,15 @@
   }
 }
 [data-theme="dark"] .offerings-section {
-  background: #121212;
+  background: #111111;
 }
 
 [data-theme="dark"] .offerings-section h2 {
-  color: #ffffff;
+  color: #fafafa;
 }
 
 [data-theme="dark"] .offering-item {
-  background: #1e1e1e;
+  background: #1f1f1f;
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
 }
 
@@ -601,7 +601,7 @@
 /* section 5 zigzag*/
 .timeline-section {
   padding: 60px 10%;
-  background: #f9fbff;
+  background: #f9fafc;
   text-align: center;
 }
 
@@ -712,15 +712,15 @@
   }
 }
 [data-theme="dark"] .timeline-section {
-  background: #121212;
+  background: #111111;
 }
 
 [data-theme="dark"] .timeline-title {
-  color: #ffffff;
+  color: #fafafa;
 }
 
 [data-theme="dark"] .timeline-step .icon {
-  background: #1e1e1e;
+  background: #1f1f1f;
   color: #4dabf7;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
 }
@@ -794,7 +794,7 @@
 }
 
 .cta-btn:hover {
-  background: #ffffff;
+  background: #fafafa;
   color: #0056ff;
 }
 
@@ -810,8 +810,8 @@
 
 /* ------------------------- DARK THEME ------------------------- */
 .dark-theme {
-  background-color: #121212;
-  color: #f0f0f0;
+  background-color: #111111;
+  color: #f1f1f1;
 }
 
 /* Text Overrides */
@@ -822,7 +822,7 @@
 .dark-theme h5,
 .dark-theme h6,
 .dark-theme p {
-  color: #f0f0f0;
+  color: #f1f1f1;
 }
 
 /* Hero Section */
@@ -833,7 +833,7 @@
 .dark-theme .btn-primary,
 .dark-theme .btn-secondary {
   background-color: #007bff;
-  color: #ffffff;
+  color: #fafafa;
 }
 
 .dark-theme .btn-primary:hover,
@@ -844,7 +844,7 @@
 
 /* Explore Services Section */
 .dark-theme .explore-services-section {
-  background-color: #1e1e1e;
+  background-color: #1f1f1f;
 }
 
 .dark-theme .explore-service-card {
@@ -853,18 +853,18 @@
 }
 
 .dark-theme .explore-service-label {
-  background-color: #2a2a2a;
+  background-color: #2c2c2c;
   color: #ddd;
   border-top: 1px solid #333;
 }
 
 .dark-theme .explore-service-label:hover {
-  color: #66b2ff;
+  color: #63b3ff;
 }
 
 /* Features Section */
 .dark-theme .features-section {
-  background-color: #1a1a1a;
+  background-color: #181818;
 }
 
 .dark-theme .features-image img {
@@ -881,18 +881,18 @@
 }
 
 .dark-theme .step {
-  background-color: #2a2a2a;
-  color: #e0e0e0;
+  background-color: #2c2c2c;
+  color: #dcdcdc;
   box-shadow: 0 6px 20px rgba(255, 255, 255, 0.05);
 }
 
 .dark-theme .center-text {
-  color: #f0f0f0;
+  color: #f1f1f1;
 }
 
 /* Offerings Section */
 .dark-theme .offerings-section {
-  background-color: #1b1b1b;
+  background-color: #1c1c1c;
 }
 
 .dark-theme .offering-item {
@@ -902,7 +902,7 @@
 }
 
 .dark-theme .offering-title {
-  color: #66b2ff;
+  color: #63b3ff;
 }
 
 .dark-theme .offering-desc {
@@ -911,12 +911,12 @@
 
 /* Timeline Section */
 .dark-theme .timeline-section {
-  background-color: #121212;
+  background-color: #111111;
 }
 
 .dark-theme .timeline-step .icon {
-  background-color: #1e1e1e;
-  color: #66b2ff;
+  background-color: #1f1f1f;
+  color: #63b3ff;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
 }
 
@@ -926,11 +926,11 @@
 
 /* Contact CTA */
 .dark-theme .contact-cta {
-  background-color: #1a1a1a;
+  background-color: #181818;
 }
 
 .dark-theme .cta-title {
-  color: #ffffff;
+  color: #fafafa;
 }
 
 .dark-theme .cta-text {

@@ -1,5 +1,5 @@
 .footer {
-  background-color: #fdfdfd;
+  background-color: #fafafa;
   color: #000000;
   padding: 50px 20px 20px;
   font-family: 'Segoe UI', sans-serif;
@@ -61,7 +61,7 @@
 .footer-social a {
   margin-right: 10px;
   font-size: 20px;
-  color: #fdfdfd;
+  color: #fafafa;
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -81,7 +81,7 @@
   text-align: center;
   padding: 10px 20px;
   color: #000000;
-  background-color: #fdfdfd;
+  background-color: #fafafa;
 }
 
 /* Scroll to top button */
@@ -171,13 +171,13 @@
 
 /* Dark Theme */
 [data-theme="dark"] .footer {
-  background-color: #121212;
-  color: #e0e0e0;
+  background-color: #111111;
+  color: #dcdcdc;
 }
 
 [data-theme="dark"] .footer-section {
   border-color: transparent;
-  color: #e0e0e0;
+  color: #dcdcdc;
 }
 
 [data-theme="dark"] .footer-section h4 {
@@ -186,33 +186,33 @@
 
 [data-theme="dark"] .footer-description,
 [data-theme="dark"] .footer-contact {
-  color: #fdfdfd;
+  color: #fafafa;
 }
 
 [data-theme="dark"] .footer-section ul li a {
-  color: #fdfdfd;
+  color: #fafafa;
 }
 
 [data-theme="dark"] .footer-section ul li a:hover {
-  color: #fdfdfd;
+  color: #fafafa;
 }
 
 [data-theme="dark"] .footer-social a {
-  color: #fdfdfd;
+  color: #fafafa;
 }
 
 [data-theme="dark"] .footer-social a:hover {
-  color: #fdfdfd;
+  color: #fafafa;
 }
 
 [data-theme="dark"] .footer-bottom {
-  background-color: #121212;
-  color: #fdfdfd;
+  background-color: #111111;
+  color: #fafafa;
 }
 
 [data-theme="dark"] .scroll-to-top {
   background-color: #64b5f6;
-  color: #121212;
+  color: #111111;
 }
 
 [data-theme="dark"] .scroll-to-top:hover {
