@@ -1,0 +1,311 @@
+/* Root & theme */
+
+.dashboard-root {
+  min-height: 100vh;
+  padding: 30px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dashboard-root.light {
+  background: #e3f2fd; /* Light blue background */
+  color: #0d47a1; /* Dark blue text */
+}
+
+.dashboard-root.dark {
+  background: #0d1b2a; /* Dark navy background */
+  color: #82b1ff; /* Light blue text */
+}
+
+/* Header */
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-bottom: 30px;
+  user-select: none;
+  align-items: center;
+  border-bottom: 2px solid;
+  border-color: inherit;
+  padding-bottom: 10px;
+  transition: box-shadow 0.3s ease;
+}
+.dashboard-header:hover {
+  box-shadow: 0 4px 15px rgba(33, 150, 243, 0.6);
+  transform: scale(1.03);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.dashboard-header h2 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.logout-btn {
+  background-color: #1976d2;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  color: #e3f2fd;
+  font-weight: 700;
+  box-shadow: 0 0 12px #42a5f5;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+.logout-btn:hover {
+  background-color: #1565c0;
+  box-shadow: 0 0 18px #82b1ff;
+  transform: scale(1.05);
+}
+
+/* Stats */
+
+.dashboard-stats {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.stat-card {
+  background-color: inherit;
+  box-shadow: 0 4px 15px rgba(25, 118, 210, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 180px;
+  text-align: center;
+  flex: 1 1 180px;
+  user-select: none;
+  cursor: default;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+.stat-card:hover {
+  box-shadow: 0 8px 25px rgba(25, 118, 210, 0.7);
+  transform: scale(1.05);
+}
+
+.dashboard-root.light .stat-card {
+  background-color: #bbdefb;
+  box-shadow: 0 4px 15px rgba(25, 118, 210, 0.3);
+  color: #0d47a1;
+}
+
+.dashboard-root.dark .stat-card {
+  background-color: #1a2e4a;
+  box-shadow: 0 4px 15px rgba(66, 165, 245, 0.7);
+  color: #82b1ff;
+}
+
+.stat-card h3 {
+  margin: 0 0 8px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #42a5f5;
+}
+
+.stat-card p {
+  font-size: 28px;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* Recent Logins */
+
+.recent-logins {
+  background-color: inherit;
+  box-shadow: 0 4px 15px rgba(25, 118, 210, 0.3);
+  border-radius: 10px;
+  padding: 20px;
+  overflow-x: auto;
+  margin-bottom: 30px;
+  max-height: 220px;
+  flex-shrink: 0;
+  user-select: none;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.recent-logins:hover {
+  box-shadow: 0 8px 25px rgba(25, 118, 210, 0.7);
+  transform: scale(1.03);
+}
+
+.dashboard-root.light .recent-logins {
+  background-color: #bbdefb;
+  color: #0d47a1;
+  box-shadow: 0 4px 15px rgba(25, 118, 210, 0.3);
+}
+
+.dashboard-root.dark .recent-logins {
+  background-color: #1a2e4a;
+  color: #82b1ff;
+  box-shadow: 0 4px 15px rgba(66, 165, 245, 0.7);
+}
+
+.recent-logins h4 {
+  color: #42a5f5;
+  font-weight: 700;
+}
+
+.recent-logins table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 320px;
+  color: inherit;
+}
+
+.recent-logins th,
+.recent-logins td {
+  padding: 8px 12px;
+  text-align: left;
+  max-width: 300px;
+  overflow-wrap: break-word;
+}
+
+.recent-logins thead tr {
+  border-bottom: 2px solid currentColor;
+  color: #42a5f5;
+  font-weight: 700;
+}
+
+.recent-logins tbody tr {
+  transition: background-color 0.3s ease;
+  cursor: default;
+}
+
+.dashboard-root.light .recent-logins tbody tr:hover {
+  background-color: #90caf9;
+  color: #0d47a1;
+}
+
+.dashboard-root.dark .recent-logins tbody tr:hover {
+  background-color: #2e477a;
+  color: #82b1ff;
+}
+
+/* Charts Section */
+
+.dashboard-charts {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  overflow: hidden;
+  min-height: 320px;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 400px; /* or larger */
+  height: 450px; /* increase height to show full chart */
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: inherit;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(25, 118, 210, 0.3);
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.chart-container canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+.chart-container:hover {
+  box-shadow: 0 8px 25px rgba(25, 118, 210, 0.7);
+  transform: scale(1.04);
+}
+
+.dashboard-root.light .chart-container {
+  background-color: #bbdefb;
+  color: #0d47a1;
+  box-shadow: 0 4px 15px rgba(25, 118, 210, 0.3);
+}
+
+.dashboard-root.dark .chart-container {
+  background-color: #1a2e4a;
+  color: #82b1ff;
+  box-shadow: 0 4px 15px rgba(66, 165, 245, 0.7);
+}
+
+/* Bar chart container wider */
+
+.bar-container {
+  width: 420px;
+}
+
+/* Chart titles */
+
+.chart-container h4 {
+  margin-bottom: 10px;
+  color: #1d06f3;
+  font-weight: 700;
+  user-select: none;
+}
+
+/* Scrollbar styling for recent logins */
+
+.recent-logins::-webkit-scrollbar {
+  height: 8px;
+}
+.recent-logins::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+/* Dark theme styles scoped with [data-theme="dark"] on a parent element */
+
+[data-theme="dark"] .dashboard-root,
+.dashboard-root.dark {
+  background: #0d1b2a;
+  color: #82b1ff;
+}
+
+[data-theme="dark"] .stat-card,
+.dashboard-root.dark .stat-card {
+  background-color: #1a2e4a;
+  color: #82b1ff;
+  box-shadow: 0 4px 15px rgba(66, 165, 245, 0.7);
+}
+
+[data-theme="dark"] .recent-logins,
+.dashboard-root.dark .recent-logins {
+  background-color: #1a2e4a;
+  color: #82b1ff;
+  box-shadow: 0 4px 15px rgba(66, 165, 245, 0.7);
+}
+
+[data-theme="dark"] .recent-logins tbody tr:hover,
+.dashboard-root.dark .recent-logins tbody tr:hover {
+  background-color: #2e477a;
+  color: #82b1ff;
+}
+
+[data-theme="dark"] .chart-container,
+.dashboard-root.dark .chart-container {
+  background-color: #1a2e4a;
+  color: #82b1ff;
+  box-shadow: 0 4px 15px rgba(66, 165, 245, 0.7);
+}
+
+[data-theme="dark"] .dashboard-header:hover,
+.dashboard-root.dark .dashboard-header:hover {
+  box-shadow: 0 4px 15px rgba(66, 165, 245, 0.6);
+}
+
+[data-theme="dark"] .logout-btn:hover,
+.dashboard-root.dark .logout-btn:hover {
+  background-color: #1565c0;
+  box-shadow: 0 0 18px #82b1ff;
+}
