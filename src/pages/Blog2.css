@@ -1,17 +1,6 @@
 /* Root Colors (you can place this in index.css or global styles) */
-:root {
-  --background-color: #fafafa;
-  --text-color: #000000;
-  --accent-color: #007bff;
-  --card-bg: #f9fafc;
-}
 
-html[data-theme='dark'] {
-  --background-color: #111111;
-  --text-color: #fafafa;
-  --accent-color: #1e90ff;
-  --card-bg: #1f1f1f;
-}
+
 
 .cloud-native-section {
   padding: 3rem 1rem;
